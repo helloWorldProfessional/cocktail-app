@@ -1,0 +1,85 @@
+.drinkResult{
+    background-color: #05435ef5;
+    width: 80%; 
+    margin-left: 10%;
+    margin-right: 10%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    padding: 0; 
+    height: 100%;
+    z-index: 1;
+    position: fixed;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    line-height: 50%;
+    
+  }
+  .btnContainer{
+    position: fixed;
+    background-color: none;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: fit-content;
+    width: 80%;
+    right: 0;
+  }
+  .closeBtn{
+    font-size: 30px;
+    font-weight: 800;
+    color: black;
+    background-color: transparent;
+    border: none;
+    position: relative;
+    float: right;
+    padding-right: 15%;
+    
+  }
+  .content{
+      background-color: transparent;
+      width: 70%;
+      padding-top: 80px;
+      margin-left: 15%;
+      margin-right: 15%;
+      padding-bottom: 20px;
+      white-space: pre-line;
+      overflow-x: hidden;
+      max-height: calc(90vh - 10px);
+        overflow-y: auto;
+        
+        -ms-overflow-style: none;  /* IE and Edge */
+        scrollbar-width: none;  /* Firefox */
+  }
+  /* Hide scrollbar for Chrome, Safari and Opera */
+    .content::-webkit-scrollbar {
+        display: none;
+    }
+
+  .text{
+      color: rgba(14, 198, 14, 0.96);
+      font-size: 30px;
+      text-align: center;
+  }
+  .text-title{
+    color: #adbec5c6;
+    font-size: 20px;
+    text-align: center;
+  }
+  .text-instructions{
+    line-height: 100%; 
+    color: rgba(14, 198, 14, 0.96);
+      font-size: 30px;
+      text-align: center;  
+  }
+  hr{
+    margin: 20px 0;
+    height: 1px;
+    border: none;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    background: -webkit-gradient(linear, 0 0, 100% 0, from(transparent), to(transparent), color-stop(50%, rgba(255, 255, 255, 0.363)));
+
+  }
+  

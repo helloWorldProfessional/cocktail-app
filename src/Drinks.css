@@ -1,0 +1,96 @@
+
+.fetchData{
+    margin-right: 0px;
+    margin-left: 0px;
+    align-items: center;
+    width: auto;
+    
+  }
+  .container{
+    width: fit-content;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: auto;
+    align-items: center;
+    
+  }
+  .searchList{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    width: inherit;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  .thumbnail{
+    width: 250px;
+    height: 250px;
+    border-radius: 5px;
+  }
+  
+  .listItem{
+    padding: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.1s;
+    width: 300px;
+    display: block;
+    margin: 10px;
+    background-color: rgba(133, 181, 51, 0.832);
+    border-radius: 5px;
+  }
+  .listItem:hover {
+    box-shadow: 0 8px 16px 0 rgba(3, 13, 5, 0.76);
+    transform: scale(1.03);
+  }
+  .title{
+    color: #05445E;
+    font-size: 30px;
+  }
+  .btn{
+    
+    margin-top:  10px ;
+    margin-bottom: 5px;
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+    font-size: small;
+    font-weight: 600;
+    border-style: none;
+    border-radius: 3px;
+    padding: 10px;
+    background-color:#05445E; 
+    color: white;
+    
+  }
+  .btn:hover{
+    background-color: rgba(0, 128, 0, 0.849);
+  }
+  @media (max-width: 800px) {
+    .fetchData{
+      width: 100%; 
+      left: 0;
+      padding: 20px;
+    }
+    .searchList{
+      display: contents;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      
+    }
+    .thumbnail{
+      width: 60%;
+      height: 60%;
+      border-radius: 5px;
+    }
+    .listItem{
+      width: 50%;
+      margin-right: 25%;
+      margin-left: 25%;
+      margin-bottom: 20px;
+    }
+    
+  }
+  

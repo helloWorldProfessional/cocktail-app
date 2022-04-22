@@ -1,23 +1,21 @@
-import logo from './logo.svg';
+import React from 'react'
 import './App.css';
+import SearchBar from './components/SearchBar';
 
 function App() {
+  /* 
+    SearchBar komponenta sluzi za prikupljanje podataka na osnovu unesenog
+    i poziva komponentu Drinks kojoj prosljedjuje prikupljene podatke. 
+    Drinks komponenta prikazuje listu koktela gdje se pomocu DETAIL button-a
+    moze pristupiti dodatnim podacima zeljenog koktela.
+    Detalje o izabranom koktelu prikuplja i ispisuje komponenta Drink. 
+
+    CSS fajlovi su odvojeni za komponente Drink i Drinks, a SearchBar komponentu
+    sam stilizovala u okviru App.css
+  */
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <SearchBar/>
     </div>
   );
 }
